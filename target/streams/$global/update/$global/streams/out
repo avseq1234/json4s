@@ -1,0 +1,856 @@
+[info] Updating {file:/D:/ijws/json4s/}json4s...
+[debug] :: resolving dependencies :: default#json4s_2.10;1.0
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for default#json4s_2.10;1.0 [compile]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.10.4 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d1caf
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
+[debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
+[debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-jackson_2.10;3.2.11 [compile->default(compile)]
+[info] Resolving org.json4s#json4s-jackson_2.10;3.2.11 ...
+[debug] sbt-chain: Checking cache for: dependency: org.json4s#json4s-jackson_2.10;3.2.11 {compile=[default(compile)]}
+[info] Resolving org.json4s#json4s-jackson_2.10;3.2.11 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.json4s#json4s-jackson_2.10;3.2.11 {compile=[default(compile)]}
+[debug] 		tried C:\Users\Honda\.ivy2\local\org.json4s\json4s-jackson_2.10\3.2.11\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.json4s#json4s-jackson_2.10;3.2.11
+[debug] 		tried https://repo1.maven.org/maven2/org/json4s/json4s-jackson_2.10/3.2.11/json4s-jackson_2.10-3.2.11.pom
+[debug] 	public: found md file for org.json4s#json4s-jackson_2.10;3.2.11
+[debug] 		=> https://repo1.maven.org/maven2/org/json4s/json4s-jackson_2.10/3.2.11/json4s-jackson_2.10-3.2.11.pom (3.2.11)
+[debug] downloading https://repo1.maven.org/maven2/org/json4s/json4s-jackson_2.10/3.2.11/json4s-jackson_2.10-3.2.11.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-jackson_2.10/3.2.11/json4s-jackson_2.10-3.2.11.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-jackson_2.10/3.2.11/json4s-jackson_2.10-3.2.11.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/json4s/json4s-jackson_2.10/3.2.11/json4s-jackson_2.10-3.2.11.pom
+[debug] 	[SUCCESSFUL ] org.json4s#json4s-jackson_2.10;3.2.11!json4s-jackson_2.10.pom(pom.original) (922ms)
+[debug] 		tried C:\Users\Honda\.ivy2\local\org.json4s\json4s-jackson_2.10\3.2.11\jars\json4s-jackson_2.10.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/json4s/json4s-jackson_2.10/3.2.11/json4s-jackson_2.10-3.2.11.jar
+[debug] 	found org.json4s#json4s-jackson_2.10;3.2.11 in public
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-jackson_2.10;3.2.11 [compile->runtime]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-jackson_2.10;3.2.11 [compile->compile]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.json4s#json4s-core_2.10;3.2.11 [compile->compile(*)]
+[info] Resolving org.json4s#json4s-core_2.10;3.2.11 ...
+[debug] sbt-chain: Checking cache for: dependency: org.json4s#json4s-core_2.10;3.2.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[info] Resolving org.json4s#json4s-core_2.10;3.2.11 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.json4s#json4s-core_2.10;3.2.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried C:\Users\Honda\.ivy2\local\org.json4s\json4s-core_2.10\3.2.11\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.json4s#json4s-core_2.10;3.2.11
+[debug] 		tried https://repo1.maven.org/maven2/org/json4s/json4s-core_2.10/3.2.11/json4s-core_2.10-3.2.11.pom
+[debug] 	public: found md file for org.json4s#json4s-core_2.10;3.2.11
+[debug] 		=> https://repo1.maven.org/maven2/org/json4s/json4s-core_2.10/3.2.11/json4s-core_2.10-3.2.11.pom (3.2.11)
+[debug] downloading https://repo1.maven.org/maven2/org/json4s/json4s-core_2.10/3.2.11/json4s-core_2.10-3.2.11.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-core_2.10/3.2.11/json4s-core_2.10-3.2.11.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-core_2.10/3.2.11/json4s-core_2.10-3.2.11.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/json4s/json4s-core_2.10/3.2.11/json4s-core_2.10-3.2.11.pom
+[debug] 	[SUCCESSFUL ] org.json4s#json4s-core_2.10;3.2.11!json4s-core_2.10.pom(pom.original) (904ms)
+[debug] 		tried C:\Users\Honda\.ivy2\local\org.json4s\json4s-core_2.10\3.2.11\jars\json4s-core_2.10.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/json4s/json4s-core_2.10/3.2.11/json4s-core_2.10-3.2.11.jar
+[debug] 	found org.json4s#json4s-core_2.10;3.2.11 in public
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.json4s#json4s-ast_2.10;3.2.11 [compile->compile(*)]
+[info] Resolving org.json4s#json4s-ast_2.10;3.2.11 ...
+[debug] sbt-chain: Checking cache for: dependency: org.json4s#json4s-ast_2.10;3.2.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[info] Resolving org.json4s#json4s-ast_2.10;3.2.11 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.json4s#json4s-ast_2.10;3.2.11 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried C:\Users\Honda\.ivy2\local\org.json4s\json4s-ast_2.10\3.2.11\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.json4s#json4s-ast_2.10;3.2.11
+[debug] 		tried https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.10/3.2.11/json4s-ast_2.10-3.2.11.pom
+[debug] 	public: found md file for org.json4s#json4s-ast_2.10;3.2.11
+[debug] 		=> https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.10/3.2.11/json4s-ast_2.10-3.2.11.pom (3.2.11)
+[debug] downloading https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.10/3.2.11/json4s-ast_2.10-3.2.11.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.10/3.2.11/json4s-ast_2.10-3.2.11.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.10/3.2.11/json4s-ast_2.10-3.2.11.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.10/3.2.11/json4s-ast_2.10-3.2.11.pom
+[debug] 	[SUCCESSFUL ] org.json4s#json4s-ast_2.10;3.2.11!json4s-ast_2.10.pom(pom.original) (733ms)
+[debug] 		tried C:\Users\Honda\.ivy2\local\org.json4s\json4s-ast_2.10\3.2.11\jars\json4s-ast_2.10.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.10/3.2.11/json4s-ast_2.10-3.2.11.jar
+[debug] 	found org.json4s#json4s-ast_2.10;3.2.11 in public
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.json4s#json4s-ast_2.10;3.2.11 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->com.thoughtworks.paranamer#paranamer;2.6 [compile->compile(*)]
+[info] Resolving com.thoughtworks.paranamer#paranamer;2.6 ...
+[debug] sbt-chain: Checking cache for: dependency: com.thoughtworks.paranamer#paranamer;2.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: com.thoughtworks.paranamer#paranamer;2.6
+[debug] 	found com.thoughtworks.paranamer#paranamer;2.6 in sbt-chain
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->com.thoughtworks.paranamer#paranamer;2.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scalap;2.10.0 [compile->compile(*)]
+[info] Resolving org.scala-lang#scalap;2.10.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scalap;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scalap;2.10.0
+[debug] 	found org.scala-lang#scalap;2.10.0 in sbt-chain
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)]
+[info] Resolving org.scala-lang#scala-compiler;2.10.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.0
+[debug] 	found org.scala-lang#scala-compiler;2.10.0 in sbt-chain
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)]
+[info] Resolving org.scala-lang#scala-reflect;2.10.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.0
+[debug] 	found org.scala-lang#scala-reflect;2.10.0 in sbt-chain
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scalap;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.json4s#json4s-core_2.10;3.2.11 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.json4s#json4s-core_2.10;3.2.11 [compile->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.json4s#json4s-core_2.10;3.2.11 [compile->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.json4s#json4s-ast_2.10;3.2.11 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.json4s#json4s-ast_2.10;3.2.11 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->com.thoughtworks.paranamer#paranamer;2.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->com.thoughtworks.paranamer#paranamer;2.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scalap;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scalap;2.10.0 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->compile(*)]
+[info] Resolving com.fasterxml.jackson.core#jackson-databind;2.3.1 ...
+[debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-databind;2.3.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.3.1
+[debug] 	found com.fasterxml.jackson.core#jackson-databind;2.3.1 in sbt-chain
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->compile(*)]
+[info] Resolving com.fasterxml.jackson.core#jackson-annotations;2.3.0 ...
+[debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-annotations;2.3.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.3.0
+[debug] 	found com.fasterxml.jackson.core#jackson-annotations;2.3.0 in sbt-chain
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->master(compile)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-core;2.3.1 [compile->compile(*)]
+[info] Resolving com.fasterxml.jackson.core#jackson-core;2.3.1 ...
+[debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-core;2.3.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.3.1
+[debug] 	found com.fasterxml.jackson.core#jackson-core;2.3.1 in sbt-chain
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-core;2.3.1 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->compile]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [runtime->compile]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-core;2.3.1 [runtime->runtime(*)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-core;2.3.1 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.json4s#json4s-core_2.10;3.2.11 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.json4s#json4s-core_2.10;3.2.11 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->com.fasterxml.jackson.core#jackson-databind;2.3.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->com.fasterxml.jackson.core#jackson-databind;2.3.1 [runtime->compile]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-jackson_2.10;3.2.11 [compile->master]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-ext_2.10;3.2.11 [compile->default(compile)]
+[info] Resolving org.json4s#json4s-ext_2.10;3.2.11 ...
+[debug] sbt-chain: Checking cache for: dependency: org.json4s#json4s-ext_2.10;3.2.11 {compile=[default(compile)]}
+[info] Resolving org.json4s#json4s-ext_2.10;3.2.11 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.json4s#json4s-ext_2.10;3.2.11 {compile=[default(compile)]}
+[debug] 		tried C:\Users\Honda\.ivy2\local\org.json4s\json4s-ext_2.10\3.2.11\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.json4s#json4s-ext_2.10;3.2.11
+[debug] 		tried https://repo1.maven.org/maven2/org/json4s/json4s-ext_2.10/3.2.11/json4s-ext_2.10-3.2.11.pom
+[debug] 	public: found md file for org.json4s#json4s-ext_2.10;3.2.11
+[debug] 		=> https://repo1.maven.org/maven2/org/json4s/json4s-ext_2.10/3.2.11/json4s-ext_2.10-3.2.11.pom (3.2.11)
+[debug] downloading https://repo1.maven.org/maven2/org/json4s/json4s-ext_2.10/3.2.11/json4s-ext_2.10-3.2.11.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-ext_2.10/3.2.11/json4s-ext_2.10-3.2.11.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-ext_2.10/3.2.11/json4s-ext_2.10-3.2.11.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/json4s/json4s-ext_2.10/3.2.11/json4s-ext_2.10-3.2.11.pom
+[debug] 	[SUCCESSFUL ] org.json4s#json4s-ext_2.10;3.2.11!json4s-ext_2.10.pom(pom.original) (895ms)
+[debug] 		tried C:\Users\Honda\.ivy2\local\org.json4s\json4s-ext_2.10\3.2.11\jars\json4s-ext_2.10.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/json4s/json4s-ext_2.10/3.2.11/json4s-ext_2.10-3.2.11.jar
+[debug] 	found org.json4s#json4s-ext_2.10;3.2.11 in public
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-ext_2.10;3.2.11 [compile->runtime]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-ext_2.10;3.2.11 [compile->compile]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->joda-time#joda-time;2.3 [compile->compile(*)]
+[info] Resolving joda-time#joda-time;2.3 ...
+[debug] sbt-chain: Checking cache for: dependency: joda-time#joda-time;2.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: joda-time#joda-time;2.3
+[debug] 	found joda-time#joda-time;2.3 in sbt-chain
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->joda-time#joda-time;2.3 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->joda-time#joda-time;2.3 [compile->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->joda-time#joda-time;2.3 [compile->compile]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.joda#joda-convert;1.6 [compile->compile(*)]
+[info] Resolving org.joda#joda-convert;1.6 ...
+[debug] sbt-chain: Checking cache for: dependency: org.joda#joda-convert;1.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.joda#joda-convert;1.6
+[debug] 	found org.joda#joda-convert;1.6 in sbt-chain
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.joda#joda-convert;1.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.joda#joda-convert;1.6 [compile->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.joda#joda-convert;1.6 [compile->compile]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->joda-time#joda-time;2.3 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->joda-time#joda-time;2.3 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.joda#joda-convert;1.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.joda#joda-convert;1.6 [runtime->compile]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-ext_2.10;3.2.11 [compile->master]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for default#json4s_2.10;1.0 [runtime]
+[debug] == resolving dependencies for default#json4s_2.10;1.0 [compile]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-jackson_2.10;3.2.11 [compile->default(compile)]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-jackson_2.10;3.2.11 [compile->runtime]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-jackson_2.10;3.2.11 [compile->compile]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.json4s#json4s-core_2.10;3.2.11 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.json4s#json4s-ast_2.10;3.2.11 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.json4s#json4s-ast_2.10;3.2.11 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->com.thoughtworks.paranamer#paranamer;2.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->com.thoughtworks.paranamer#paranamer;2.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scalap;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scalap;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.json4s#json4s-core_2.10;3.2.11 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->compile(*)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->compile(*)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->master(compile)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-core;2.3.1 [compile->compile(*)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-core;2.3.1 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.json4s#json4s-core_2.10;3.2.11 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.json4s#json4s-core_2.10;3.2.11 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.json4s#json4s-ast_2.10;3.2.11 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.json4s#json4s-ast_2.10;3.2.11 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->com.thoughtworks.paranamer#paranamer;2.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->com.thoughtworks.paranamer#paranamer;2.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scalap;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scalap;2.10.0 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->com.fasterxml.jackson.core#jackson-databind;2.3.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->com.fasterxml.jackson.core#jackson-databind;2.3.1 [runtime->compile]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [runtime->compile]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-core;2.3.1 [runtime->runtime(*)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-core;2.3.1 [runtime->compile]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-jackson_2.10;3.2.11 [compile->master]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-ext_2.10;3.2.11 [compile->default(compile)]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-ext_2.10;3.2.11 [compile->runtime]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-ext_2.10;3.2.11 [compile->compile]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->joda-time#joda-time;2.3 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->joda-time#joda-time;2.3 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.joda#joda-convert;1.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.joda#joda-convert;1.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->joda-time#joda-time;2.3 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->joda-time#joda-time;2.3 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.joda#joda-convert;1.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.joda#joda-convert;1.6 [runtime->compile]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-ext_2.10;3.2.11 [compile->master]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for default#json4s_2.10;1.0 [test]
+[debug] == resolving dependencies for default#json4s_2.10;1.0 [runtime]
+[debug] == resolving dependencies for default#json4s_2.10;1.0 [compile]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-jackson_2.10;3.2.11 [compile->default(compile)]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-jackson_2.10;3.2.11 [compile->runtime]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-jackson_2.10;3.2.11 [compile->compile]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.json4s#json4s-core_2.10;3.2.11 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.json4s#json4s-ast_2.10;3.2.11 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.json4s#json4s-ast_2.10;3.2.11 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->com.thoughtworks.paranamer#paranamer;2.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->com.thoughtworks.paranamer#paranamer;2.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scalap;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scalap;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.json4s#json4s-core_2.10;3.2.11 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->compile(*)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->compile(*)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->master(compile)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-core;2.3.1 [compile->compile(*)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-core;2.3.1 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.json4s#json4s-core_2.10;3.2.11 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.json4s#json4s-core_2.10;3.2.11 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.json4s#json4s-ast_2.10;3.2.11 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.json4s#json4s-ast_2.10;3.2.11 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->com.thoughtworks.paranamer#paranamer;2.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->com.thoughtworks.paranamer#paranamer;2.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scalap;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scalap;2.10.0 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->com.fasterxml.jackson.core#jackson-databind;2.3.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->com.fasterxml.jackson.core#jackson-databind;2.3.1 [runtime->compile]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [runtime->compile]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-core;2.3.1 [runtime->runtime(*)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-core;2.3.1 [runtime->compile]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-jackson_2.10;3.2.11 [compile->master]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-ext_2.10;3.2.11 [compile->default(compile)]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-ext_2.10;3.2.11 [compile->runtime]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-ext_2.10;3.2.11 [compile->compile]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->joda-time#joda-time;2.3 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->joda-time#joda-time;2.3 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.joda#joda-convert;1.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.joda#joda-convert;1.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->joda-time#joda-time;2.3 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->joda-time#joda-time;2.3 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.joda#joda-convert;1.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.joda#joda-convert;1.6 [runtime->compile]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-ext_2.10;3.2.11 [compile->master]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for default#json4s_2.10;1.0 [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for default#json4s_2.10;1.0 [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for default#json4s_2.10;1.0 [compile-internal]
+[debug] == resolving dependencies for default#json4s_2.10;1.0 [compile]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-jackson_2.10;3.2.11 [compile->default(compile)]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-jackson_2.10;3.2.11 [compile->runtime]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-jackson_2.10;3.2.11 [compile->compile]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.json4s#json4s-core_2.10;3.2.11 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.json4s#json4s-ast_2.10;3.2.11 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.json4s#json4s-ast_2.10;3.2.11 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->com.thoughtworks.paranamer#paranamer;2.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->com.thoughtworks.paranamer#paranamer;2.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scalap;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scalap;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.json4s#json4s-core_2.10;3.2.11 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->compile(*)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->compile(*)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->master(compile)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-core;2.3.1 [compile->compile(*)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-core;2.3.1 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.json4s#json4s-core_2.10;3.2.11 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.json4s#json4s-core_2.10;3.2.11 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.json4s#json4s-ast_2.10;3.2.11 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.json4s#json4s-ast_2.10;3.2.11 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->com.thoughtworks.paranamer#paranamer;2.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->com.thoughtworks.paranamer#paranamer;2.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scalap;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scalap;2.10.0 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->com.fasterxml.jackson.core#jackson-databind;2.3.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->com.fasterxml.jackson.core#jackson-databind;2.3.1 [runtime->compile]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [runtime->compile]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-core;2.3.1 [runtime->runtime(*)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-core;2.3.1 [runtime->compile]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-jackson_2.10;3.2.11 [compile->master]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-ext_2.10;3.2.11 [compile->default(compile)]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-ext_2.10;3.2.11 [compile->runtime]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-ext_2.10;3.2.11 [compile->compile]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->joda-time#joda-time;2.3 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->joda-time#joda-time;2.3 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.joda#joda-convert;1.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.joda#joda-convert;1.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->joda-time#joda-time;2.3 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->joda-time#joda-time;2.3 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.joda#joda-convert;1.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.joda#joda-convert;1.6 [runtime->compile]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-ext_2.10;3.2.11 [compile->master]
+[debug] == resolving dependencies for default#json4s_2.10;1.0 [optional]
+[debug] == resolving dependencies for default#json4s_2.10;1.0 [provided]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for default#json4s_2.10;1.0 [runtime-internal]
+[debug] == resolving dependencies for default#json4s_2.10;1.0 [runtime]
+[debug] == resolving dependencies for default#json4s_2.10;1.0 [compile]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-jackson_2.10;3.2.11 [compile->default(compile)]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-jackson_2.10;3.2.11 [compile->runtime]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-jackson_2.10;3.2.11 [compile->compile]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.json4s#json4s-core_2.10;3.2.11 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.json4s#json4s-ast_2.10;3.2.11 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.json4s#json4s-ast_2.10;3.2.11 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->com.thoughtworks.paranamer#paranamer;2.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->com.thoughtworks.paranamer#paranamer;2.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scalap;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scalap;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.json4s#json4s-core_2.10;3.2.11 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->compile(*)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->compile(*)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->master(compile)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-core;2.3.1 [compile->compile(*)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-core;2.3.1 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.json4s#json4s-core_2.10;3.2.11 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.json4s#json4s-core_2.10;3.2.11 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.json4s#json4s-ast_2.10;3.2.11 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.json4s#json4s-ast_2.10;3.2.11 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->com.thoughtworks.paranamer#paranamer;2.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->com.thoughtworks.paranamer#paranamer;2.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scalap;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scalap;2.10.0 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->com.fasterxml.jackson.core#jackson-databind;2.3.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->com.fasterxml.jackson.core#jackson-databind;2.3.1 [runtime->compile]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [runtime->compile]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-core;2.3.1 [runtime->runtime(*)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-core;2.3.1 [runtime->compile]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-jackson_2.10;3.2.11 [compile->master]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-ext_2.10;3.2.11 [compile->default(compile)]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-ext_2.10;3.2.11 [compile->runtime]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-ext_2.10;3.2.11 [compile->compile]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->joda-time#joda-time;2.3 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->joda-time#joda-time;2.3 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.joda#joda-convert;1.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.joda#joda-convert;1.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->joda-time#joda-time;2.3 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->joda-time#joda-time;2.3 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.joda#joda-convert;1.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.joda#joda-convert;1.6 [runtime->compile]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-ext_2.10;3.2.11 [compile->master]
+[debug] == resolving dependencies for default#json4s_2.10;1.0 [optional]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for default#json4s_2.10;1.0 [test-internal]
+[debug] == resolving dependencies for default#json4s_2.10;1.0 [test]
+[debug] == resolving dependencies for default#json4s_2.10;1.0 [runtime]
+[debug] == resolving dependencies for default#json4s_2.10;1.0 [compile]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->runtime]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->compile]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-jackson_2.10;3.2.11 [compile->default(compile)]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-jackson_2.10;3.2.11 [compile->runtime]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-jackson_2.10;3.2.11 [compile->compile]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.json4s#json4s-core_2.10;3.2.11 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.json4s#json4s-ast_2.10;3.2.11 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.json4s#json4s-ast_2.10;3.2.11 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->com.thoughtworks.paranamer#paranamer;2.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->com.thoughtworks.paranamer#paranamer;2.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scalap;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scalap;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.json4s#json4s-core_2.10;3.2.11 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->compile(*)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->compile(*)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [compile->master(compile)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-core;2.3.1 [compile->compile(*)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-core;2.3.1 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.json4s#json4s-core_2.10;3.2.11 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->org.json4s#json4s-core_2.10;3.2.11 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.json4s#json4s-ast_2.10;3.2.11 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.json4s#json4s-ast_2.10;3.2.11 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ast_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->com.thoughtworks.paranamer#paranamer;2.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->com.thoughtworks.paranamer#paranamer;2.6 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scalap;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-core_2.10;3.2.11->org.scala-lang#scalap;2.10.0 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->com.fasterxml.jackson.core#jackson-databind;2.3.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-jackson_2.10;3.2.11->com.fasterxml.jackson.core#jackson-databind;2.3.1 [runtime->compile]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [runtime->runtime(*)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-annotations;2.3.0 [runtime->compile]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-core;2.3.1 [runtime->runtime(*)]
+[debug] == resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.3.1->com.fasterxml.jackson.core#jackson-core;2.3.1 [runtime->compile]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-jackson_2.10;3.2.11 [compile->master]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-ext_2.10;3.2.11 [compile->default(compile)]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-ext_2.10;3.2.11 [compile->runtime]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-ext_2.10;3.2.11 [compile->compile]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->joda-time#joda-time;2.3 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->joda-time#joda-time;2.3 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.joda#joda-convert;1.6 [compile->compile(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.joda#joda-convert;1.6 [compile->master(compile)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->joda-time#joda-time;2.3 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->joda-time#joda-time;2.3 [runtime->compile]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.joda#joda-convert;1.6 [runtime->runtime(*)]
+[debug] == resolving dependencies org.json4s#json4s-ext_2.10;3.2.11->org.joda#joda-convert;1.6 [runtime->compile]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.json4s#json4s-ext_2.10;3.2.11 [compile->master]
+[debug] == resolving dependencies for default#json4s_2.10;1.0 [optional]
+[debug] == resolving dependencies for default#json4s_2.10;1.0 [provided]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for default#json4s_2.10;1.0 [plugin]
+[debug] resolving dependencies for configuration 'sources'
+[debug] == resolving dependencies for default#json4s_2.10;1.0 [sources]
+[debug] resolving dependencies for configuration 'docs'
+[debug] == resolving dependencies for default#json4s_2.10;1.0 [docs]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for default#json4s_2.10;1.0 [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for default#json4s_2.10;1.0 [scala-tool]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default]
+[info] Resolving org.scala-lang#scala-compiler;2.10.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.4
+[debug] 	found org.scala-lang#scala-compiler;2.10.4 in sbt-chain
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->default]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->runtime]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->optional(default)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(*)]
+[info] Resolving org.scala-lang#scala-reflect;2.10.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.4
+[debug] 	found org.scala-lang#scala-reflect;2.10.4 in sbt-chain
+[debug] 	[2.10.4] org.scala-lang#scala-reflect;2.10.4
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->compile]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)]
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->master(*)]
+[info] Resolving org.scala-lang#jline;2.10.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#jline;2.10.4
+[debug] 	found org.scala-lang#jline;2.10.4 in sbt-chain
+[debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->compile(*)]
+[debug] == resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->master(*)]
+[info] Resolving org.fusesource.jansi#jansi;1.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
+[debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
+[debug] == resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->compile(*)]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->default]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->compile]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->master]
+[debug] == resolving dependencies default#json4s_2.10;1.0->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)]
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/json4s/json4s-jackson_2.10/3.2.11/json4s-jackson_2.10-3.2.11.jar
+[info] downloading https://repo1.maven.org/maven2/org/json4s/json4s-jackson_2.10/3.2.11/json4s-jackson_2.10-3.2.11.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-jackson_2.10/3.2.11/json4s-jackson_2.10-3.2.11.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-jackson_2.10/3.2.11/json4s-jackson_2.10-3.2.11.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/json4s/json4s-jackson_2.10/3.2.11/json4s-jackson_2.10-3.2.11.jar
+[info] 	[SUCCESSFUL ] org.json4s#json4s-jackson_2.10;3.2.11!json4s-jackson_2.10.jar (1154ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/json4s/json4s-ext_2.10/3.2.11/json4s-ext_2.10-3.2.11.jar
+[info] downloading https://repo1.maven.org/maven2/org/json4s/json4s-ext_2.10/3.2.11/json4s-ext_2.10-3.2.11.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-ext_2.10/3.2.11/json4s-ext_2.10-3.2.11.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-ext_2.10/3.2.11/json4s-ext_2.10-3.2.11.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/json4s/json4s-ext_2.10/3.2.11/json4s-ext_2.10-3.2.11.jar
+[info] 	[SUCCESSFUL ] org.json4s#json4s-ext_2.10;3.2.11!json4s-ext_2.10.jar (1247ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/json4s/json4s-core_2.10/3.2.11/json4s-core_2.10-3.2.11.jar
+[info] downloading https://repo1.maven.org/maven2/org/json4s/json4s-core_2.10/3.2.11/json4s-core_2.10-3.2.11.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-core_2.10/3.2.11/json4s-core_2.10-3.2.11.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-core_2.10/3.2.11/json4s-core_2.10-3.2.11.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/json4s/json4s-core_2.10/3.2.11/json4s-core_2.10-3.2.11.jar
+[info] 	[SUCCESSFUL ] org.json4s#json4s-core_2.10;3.2.11!json4s-core_2.10.jar (3724ms)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.3.1!jackson-databind.jar(bundle)
+[debug] 		tried https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.10/3.2.11/json4s-ast_2.10-3.2.11.jar
+[info] downloading https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.10/3.2.11/json4s-ast_2.10-3.2.11.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.10/3.2.11/json4s-ast_2.10-3.2.11.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.10/3.2.11/json4s-ast_2.10-3.2.11.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/json4s/json4s-ast_2.10/3.2.11/json4s-ast_2.10-3.2.11.jar
+[info] 	[SUCCESSFUL ] org.json4s#json4s-ast_2.10;3.2.11!json4s-ast_2.10.jar (997ms)
+[debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.6!paranamer.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scalap;2.10.0!scalap.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.0!scala-compiler.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.3.0!jackson-annotations.jar(bundle)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.3.1!jackson-core.jar(bundle)
+[debug] 	[NOT REQUIRED] joda-time#joda-time;2.3!joda-time.jar
+[debug] 	[NOT REQUIRED] org.joda#joda-convert;1.6!joda-convert.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
+[debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
+[debug] :: resolution report :: resolve 11843ms :: artifacts dl 7223ms
+[debug] 	report for default#json4s_2.10;1.0 compile produced in D:\ijws\json4s\target\resolution-cache\reports\default-json4s_2.10-compile.xml
+[debug] 	report for default#json4s_2.10;1.0 runtime produced in D:\ijws\json4s\target\resolution-cache\reports\default-json4s_2.10-runtime.xml
+[debug] 	report for default#json4s_2.10;1.0 test produced in D:\ijws\json4s\target\resolution-cache\reports\default-json4s_2.10-test.xml
+[debug] 	report for default#json4s_2.10;1.0 provided produced in D:\ijws\json4s\target\resolution-cache\reports\default-json4s_2.10-provided.xml
+[debug] 	report for default#json4s_2.10;1.0 optional produced in D:\ijws\json4s\target\resolution-cache\reports\default-json4s_2.10-optional.xml
+[debug] 	report for default#json4s_2.10;1.0 compile-internal produced in D:\ijws\json4s\target\resolution-cache\reports\default-json4s_2.10-compile-internal.xml
+[debug] 	report for default#json4s_2.10;1.0 runtime-internal produced in D:\ijws\json4s\target\resolution-cache\reports\default-json4s_2.10-runtime-internal.xml
+[debug] 	report for default#json4s_2.10;1.0 test-internal produced in D:\ijws\json4s\target\resolution-cache\reports\default-json4s_2.10-test-internal.xml
+[debug] 	report for default#json4s_2.10;1.0 plugin produced in D:\ijws\json4s\target\resolution-cache\reports\default-json4s_2.10-plugin.xml
+[debug] 	report for default#json4s_2.10;1.0 sources produced in D:\ijws\json4s\target\resolution-cache\reports\default-json4s_2.10-sources.xml
+[debug] 	report for default#json4s_2.10;1.0 docs produced in D:\ijws\json4s\target\resolution-cache\reports\default-json4s_2.10-docs.xml
+[debug] 	report for default#json4s_2.10;1.0 pom produced in D:\ijws\json4s\target\resolution-cache\reports\default-json4s_2.10-pom.xml
+[debug] 	report for default#json4s_2.10;1.0 scala-tool produced in D:\ijws\json4s\target\resolution-cache\reports\default-json4s_2.10-scala-tool.xml
+[debug] 	resolve done (11843ms resolve - 7223ms download)
+[info] Done updating.
